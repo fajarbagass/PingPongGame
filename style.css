@@ -1,0 +1,82 @@
+/* background */
+body {
+  background: lightgray;
+}
+/* box games */
+#container {
+  background: linear-gradient(to right, #274472, #41729F, #274472);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 544px;
+  width: 1088px;
+}
+#center-line {
+  position: absolute;
+  left: 548px;
+  height: 544px;
+  border: white 10px dashed;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#text-start {
+  position: absolute;
+  color: rgb(153, 197, 238);
+  font-weight: bold;
+  font-size: 104px;
+  text-shadow: #274472 10px 5px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 0;
+}
+#text-comp, #text-user {
+  position: absolute;
+  color: rgb(153, 197, 238);
+  font-weight: bold;
+  font-size: 42px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* score */
+#user-score, #comp-score {
+  color: white;
+  position: absolute;
+  top: 12px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#user-score {
+  left: 262px;
+}
+
+#comp-score {
+  left: 806px;
+}
+/* paddle */
+#user-paddle, #comp-paddle {
+  position: absolute;
+  background: white;
+  height: 72px;
+  width: 10px;
+}
+/* ball */
+#ball {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#ball img {
+  width: 40px;
+}
